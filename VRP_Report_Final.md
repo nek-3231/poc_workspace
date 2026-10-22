@@ -1,4 +1,5 @@
 # VULNERABILITY REPORT: V8 / Mojo Sandbox Escape via Metadata Corruption
+## Reporter: pulidosatana@gmail.com
 
 ## 1. Overview
 This report documents a complete exploitation chain achieving arbitrary address read/write (AAR/AAW) and a full V8 sandbox escape through out-of-bounds metadata corruption within the Mojo IPC integration layer.
